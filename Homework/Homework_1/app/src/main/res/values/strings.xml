@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Homework 2</string>
+    <string name="item_info_title_name">题目描述</string>
+    <string-array name="item_info_description_array">
+        <item>
+            We have received an order from Pizoor Communications Inc. for a special communication system. The system consists of several devices. For each device, we are free to choose from several manufacturers. Same devices from two manufacturers differ in their maximum bandwidths and prices.
+By overall bandwidth (B) we mean the minimum of the bandwidths of the chosen devices in the communication system and the total price (P) is the sum of the prices of all chosen devices. Our goal is to choose a manufacturer for each device to maximize B/P.
+        </item>
+        <item>
+            New convocation of Parliament consists of N delegates. According to the present regulation delegates should be divided into disjoint groups of different sizes and every day each group has to send one delegate to the conciliatory committee. The composition of the conciliatory committee should be different each day. The Parliament works only while this can be accomplished.
+You are to write a program that will determine how many delegates should contain each group in order for Parliament to work as long as possible.
+        </item>
+        <item>
+            Ruratania is just entering capitalism and is establishing new enterprising activities in many fields in- cluding transport. The transportation company TransRuratania is starting a new express train from city A to city B with several stops in the stations on the way. The stations are successively numbered, city A station has number 0, city B station number m. The company runs an experiment in order to improve passenger transportation capacity and thus to increase its earnings. The train has a maximum capacity n passengers. The price of the train ticket is equal to the number of stops (stations) between the starting station and the destination station (including the destination station). Before the train starts its route from the city A, ticket orders are collected from all onroute stations. The ticket order from the station S means all reservations of tickets from S to a fixed destination station. In case the company cannot accept all orders because of the passenger capacity limitations, its rejection policy is that it either completely accept or completely reject single orders from single stations.
+        </item>
+        <item>
+            Stockbrokers are known to overreact to rumours. You have been contracted to develop a method of spreading disinformation amongst the stockbrokers to give your employer the tactical edge in the stock market. For maximum effect, you have to spread the rumours in the fastest possible way.
+
+Unfortunately for you, stockbrokers only trust information coming from their "Trusted sources" This means you have to take into account the structure of their contacts when starting a rumour. It takes a certain amount of time for a specific stockbroker to pass the rumour on to each of his colleagues. Your task will be to write a program that tells you which stockbroker to choose as your starting point for the rumour, as well as the time it will take for the rumour to spread throughout the stockbroker community. This duration is measured as the time needed for the last person to receive the information.
+        </item>
+        <item>
+            In this problem you are to print the decimal expansion of a quotient of two integers. As you well know, the decimal expansions of many integer quotients result in decimal expansions with repeating sequences of digits. You must identify these. You will print the decimal expansion of the integer quotient given, stopping just as the expansion terminates or just as the repeating pattern is to repeat itself for the first time. If there is a repeating pattern, you will say how many of the digits are in the repeating pattern.
+        </item>
+    </string-array>
+</resources>

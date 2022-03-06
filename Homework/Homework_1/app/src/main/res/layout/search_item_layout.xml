@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+<TextView
+    android:id="@+id/search_item_tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:textSize="20sp"
+    android:textColor="#0000FF"
+    />
+
+<TextView
+    android:id="@+id/difficulty_label"
+    android:layout_below="@id/search_item_tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Easy"
+    android:layout_margin="5dp"
+    android:background="#F0F0F0"
+    ></TextView>
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_below="@id/difficulty_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通过人数：10000"
+        android:textSize="15sp"
+
+        ></TextView>
+</RelativeLayout>
